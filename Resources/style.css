@@ -75,14 +75,21 @@ body{
 
 
 /* Locations*/
-.loc{
+.heading{
   height: 500px;
   width: 1200px;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  margin: 0px auto;
+}
+.heading h2{
+  padding-top: 50px;
+}
+.loc{
+
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px auto;
+
 }
 
 .loc1{
@@ -100,5 +107,16 @@ body{
 .loc3{
   background-color: black;
   width: 300px;
+  margin: 20px;
+}
+
+
+/*Footer*/
+.footer{
+  height: 200px;
+}
+
+.copyright{
+  text-align: left;
   margin: 20px;
 }
