@@ -15,6 +15,9 @@ body{
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  position:fixed;
+  z-index: 2;
+  background-color: black;
 }
 
 .header a{
@@ -42,6 +45,8 @@ body{
   display:flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  top: 80px;
 }
 
 .ourMission{
@@ -64,4 +69,36 @@ body{
 .TOFM img{
   height: 200px;
   width: 300px;
+  margin: 10px;
+}
+
+
+
+/* Locations*/
+.loc{
+  height: 500px;
+  width: 1200px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.loc1{
+  background-color: black;
+  width: 300px;
+  margin: 20px;
+}
+
+.loc2{
+  background-color: black;
+  width: 300px;
+  margin: 20px;
+}
+
+.loc3{
+  background-color: black;
+  width: 300px;
+  margin: 20px;
 }
